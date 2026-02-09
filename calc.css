@@ -1,10 +1,56 @@
-main{
-    display: flex;
-}
+@import "./global.css";
 
+main{
+    padding: 10px;
+    width: max-content;
+    background-color: rgb(20, 20, 20);
+}
+.line{
+    margin: 5px 0px;
+    display: flex;
+    gap:5px;
+}
+.textField{
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
 .btn{
     width: 50px;
     height: 50px;
-    background-color: beige;
+    background-color: #4b4949;
     border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    filter:brightness(70%);
+}
+
+.add{
+    margin: 10px;
+    background-color: aqua;
+    padding: 2px;
+    width: max-content;
+    cursor: pointer;
+}
+.blocks{
+display: flex;
+gap:10px;
+flex-wrap: wrap;
+}
+.block{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(2, 80, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
